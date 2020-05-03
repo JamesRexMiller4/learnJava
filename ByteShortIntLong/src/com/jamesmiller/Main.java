@@ -25,5 +25,10 @@ public class Main {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println(myMinLongValue);
         System.out.println(myMaxLongValue);
+
+//        Casting examples
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        short myNewShortValue = (short) (myMinShortValue / 2);
+
     }
 }
